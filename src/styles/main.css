@@ -6,6 +6,7 @@
   background-image: url('/bghero.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: left;
 }
 
 * {

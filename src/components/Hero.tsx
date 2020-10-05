@@ -1,7 +1,7 @@
 export function Hero() {
   return (
     <div id="hero" className="relative min-h-screen fundo">
-      <div className="absolute z-10 w-full h-full bg-black opacity-75" />
+      <div className="absolute z-10 w-full h-full bg-black opacity-50" />
       <div className="container fixed z-20 flex flex-col w-2/12 h-screen bg-black ">
         <div className="flex flex-col items-center pt-10">
           <img
@@ -10,7 +10,7 @@ export function Hero() {
             alt="Perfil"
           />
           <p className="pt-3 text-2xl text-gray-300">Gustavo Silva</p>
-          <ul className="flex flex-col items-center pt-16 space-y-3 text-lg text-gray-300">
+          <ul className="flex flex-col items-center pt-16 space-y-3 text-base text-gray-300">
             <a
               className="transition duration-300 ease-in-out hover:text-primary-600"
               href="#hero"

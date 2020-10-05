@@ -10,27 +10,27 @@ export function Portfolio() {
         </div>
         <div className="container grid grid-flow-row grid-cols-2 gap-8 pt-10 ">
           <div className="transition duration-500 ease-in-out border-4 border-transparent rounded-sm opacity-75 hover:opacity-100 hover:border-primary-600">
-            <a href="https://github.com/GustavoSilvaRamos/architecture">
+            <a href="https://architecture-five.vercel.app/">
               <img className="h-64 " src="HeroArc.jpg" alt="Arquitetura" />
             </a>
           </div>
           <div className="transition duration-500 ease-in-out border-4 border-transparent rounded-sm opacity-75 hover:opacity-100 hover:border-primary-600">
-            <a href="https://github.com/GustavoSilvaRamos/maridodealuguel">
+            <a href="https://maridodealuguel.vercel.app/">
               <img className="h-64 " src="HeroMDE.jpg" alt="Marido de Alugel" />
             </a>
           </div>
           <div className="transition duration-500 ease-in-out border-4 border-transparent rounded-sm opacity-75 hover:opacity-100 hover:border-primary-600">
-            <a href="https://github.com/GustavoSilvaRamos/receitas">
+            <a href="https://receitas.vercel.app/">
               <img className="h-64 " src="HeroR.jpg" alt="Receitas" />
             </a>
           </div>
           <div className="transition duration-500 ease-in-out border-4 border-transparent rounded-sm opacity-75 hover:opacity-100 hover:border-primary-600">
-            <a href="https://github.com/GustavoSilvaRamos/projetovinicola">
+            <a href="https://wineryproject.vercel.app/">
               <img className="h-64 " src="HeroV.jpg" alt="Vinicola" />
             </a>
           </div>
           <div className="transition duration-500 ease-in-out border-4 border-transparent rounded-sm opacity-75 hover:opacity-100 hover:border-primary-600">
-            <a href="https://github.com/GustavoSilvaRamos/personaltrainer">
+            <a href="https://personaltrainer.vercel.app/">
               <img className="h-64 " src="HeroPT.jpg" alt="Personal Trainer" />
             </a>
           </div>
