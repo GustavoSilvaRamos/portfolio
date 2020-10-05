@@ -1,0 +1,31 @@
+@tailwind base;
+
+/* Write your own custom base styles here */
+
+.fundo {
+  background-image: url('/bghero.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+  outline: none !important;
+  scroll-behavior: smooth !important;
+}
+
+.fab {
+  display: flex !important;
+}
+
+/* Start purging... */
+@tailwind components;
+/* Stop purging. */
+
+/* Write you own custom component styles here */
+
+/* ESTILO VEM AQUI */
+
+/* Start purging... */
+@tailwind utilities;
+/* Stop purging. */
