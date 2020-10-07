@@ -31,7 +31,7 @@ export default function Sidebar() {
           />
           <a
             href="https://github.com/GustavoSilvaRamos"
-            className="text-lg text-gray-300 transition duration-300 ease-in-out fab fa-github hover:text-gray-400"
+            className="text-lg text-gray-300 transition duration-300 ease-in-out fab fa-github hover:text-gray-600"
           />
         </div>
       </div>
