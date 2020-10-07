@@ -1,3 +1,4 @@
+//@ts-ignore
 import Typewriter from 'typewriter-effect'
 
 export default function Hero() {
