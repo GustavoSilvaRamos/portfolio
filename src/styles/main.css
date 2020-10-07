@@ -1,6 +1,17 @@
-@tailwind base;
+.page-container {
+  padding-left: 240px;
+}
 
-/* Write your own custom base styles here */
+.sidebar {
+  width: 240px;
+  padding: 40px 0;
+}
+
+.logo-img {
+  width: 160px;
+  height: 160px;
+  margin-bottom: 20px;
+}
 
 .fundo {
   background-image: url('/bghero.jpg');
@@ -18,15 +29,3 @@
 .fab {
   display: flex !important;
 }
-
-/* Start purging... */
-@tailwind components;
-/* Stop purging. */
-
-/* Write you own custom component styles here */
-
-/* ESTILO VEM AQUI */
-
-/* Start purging... */
-@tailwind utilities;
-/* Stop purging. */

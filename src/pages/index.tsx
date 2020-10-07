@@ -1,6 +1,4 @@
-import { Hero } from '../components/Hero'
-import { Portfolio } from '../components/Portfolio'
-import { Footer } from '../components/Footer'
+import { Hero, Portfolio, Footer, Sidebar } from '../components'
 import Head from 'next/head'
 
 export default function Index() {
@@ -10,7 +8,8 @@ export default function Index() {
         <title>Gustavo Silva</title>
       </Head>
       <div>
-        <div className="min-h-screen">
+        <Sidebar />
+        <div className="min-h-screen page-container">
           <Hero />
           <Portfolio />
           <Footer />
