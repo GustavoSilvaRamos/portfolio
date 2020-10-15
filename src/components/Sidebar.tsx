@@ -19,9 +19,21 @@ export default function Sidebar() {
           </a>
           <a
             className="transition duration-300 ease-in-out hover:text-primary-400"
+            href="#aboutme"
+          >
+            About Me
+          </a>
+          <a
+            className="transition duration-300 ease-in-out hover:text-primary-400"
             href="#portfolio"
           >
             Portfolio
+          </a>
+          <a
+            className="transition duration-300 ease-in-out hover:text-primary-400"
+            href="#contact"
+          >
+            Contact
           </a>
         </ul>
         <div className="flex flex-row justify-around pt-48 space-x-5">

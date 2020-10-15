@@ -1,5 +1,6 @@
-import { Hero, Portfolio, Footer, Sidebar } from '../components'
+import { Hero, Portfolio, Footer, Sidebar, AboutMe } from '../components'
 import Head from 'next/head'
+import React from 'react'
 
 export default function Index() {
   return (
@@ -11,6 +12,7 @@ export default function Index() {
         <Sidebar />
         <div className="min-h-screen page-container">
           <Hero />
+          <AboutMe />
           <Portfolio />
           <Footer />
         </div>
