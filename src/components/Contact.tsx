@@ -34,7 +34,7 @@ export default function Contact() {
             </form>
           </div>
           <div className="w-4/12">
-            <h2 className="text-2xl font-semibold text-primary-700">
+            <h2 className="mb-3 text-2xl font-semibold text-primary-700">
               Contact Info
             </h2>
             <p className="text-base font-light text-gray-600">
