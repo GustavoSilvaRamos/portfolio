@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <div className="pt-10 pb-5 bg-white">
+    <div className="pt-10 pb-5 bg-gray-100">
       <div className="container flex justify-center mx-auto">
         <p className="text-sm text-gray-900">
           © Copyright 2020{' '}

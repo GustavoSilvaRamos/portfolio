@@ -40,7 +40,7 @@ export default function AboutMe() {
                 Mirassol, São Paulo
               </li>
             </ul>
-            <button className="w-7/12 px-8 py-4 mt-6 text-white transition duration-300 ease-in-out border-none rounded-full w- hover:bg-primary-700 bg-primary-600">
+            <button className="w-7/12 px-8 py-4 mt-6 text-white transition duration-300 ease-in-out border-none rounded-full shadow-lg hover:bg-primary-700 bg-primary-600">
               Download CV
             </button>
           </div>

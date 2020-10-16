@@ -1,7 +1,7 @@
 export default function Portfolio() {
   return (
     <div id="portfolio" className="bg-gray-100">
-      <div className="container flex flex-col items-center px-10 pt-20 mx-auto">
+      <div className="container flex flex-col items-center px-10 pt-20 pb-20 mx-auto">
         <div className="flex flex-col items-center leading-none">
           <h3 className="text-6xl font-semibold text-gray-500 opacity-25">
             MY WORKS
