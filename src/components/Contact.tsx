@@ -18,18 +18,18 @@ export default function Contact() {
               <div className="flex justify-between space-x-10">
                 <input
                   type="text"
-                  className="w-6/12 px-2 py-2 bg-gray-100 border rounded-md focus:border-primary-700 focus:text-primary-700"
+                  className="w-6/12 px-2 py-2 bg-gray-100 border rounded-md focus:border-gray-800"
                   placeholder="Name"
                 />
                 <input
                   type="email"
-                  className="w-6/12 px-2 py-2 bg-gray-100 border rounded-md focus:border-primary-700 focus:text-primary-700"
+                  className="w-6/12 px-2 py-2 bg-gray-100 border rounded-md focus:border-gray-800"
                   placeholder="Email"
                 />
               </div>
-              <div className="flex flex-col items-center mt-5">
-              <textarea className="w-full px-2 pt-2 pb-20 bg-gray-100 border rounded-md focus:border-primary-700 " placeholder="Tell me more about what you need..."></textarea>
-              <button className="w-4/12 px-8 py-4 mt-6 text-white transition duration-300 ease-in-out border-none rounded-full shadow-lg hover:bg-primary-700 bg-primary-600">Send Message</button>
+              <div className="flex flex-col items-center mt-8">
+              <textarea className="w-full px-2 pt-2 pb-32 bg-gray-100 border rounded-md focus:border-gray-800 " placeholder="Tell me more about what you need..."></textarea>
+              <button className="px-8 py-4 mt-6 text-white transition duration-300 ease-in-out border-none rounded-full shadow-lg hover:bg-primary-700 bg-primary-600">Send Message</button>
               </div>
             </form>
           </div>
