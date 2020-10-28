@@ -1,4 +1,24 @@
+import { useState } from 'react'
+
 export default function Contact() {
+  const [message, setMessage] = useState<string>('')
+  const [email, setEmail] = useState<string>('')
+  const [name, setName] = useState<string>('')
+
+  function onSubmit(e) {
+    e.preventDefault()
+    const payload = {
+      message: message,
+      email: email,
+      name: name,
+    }
+    console.log(payload)
+    fetch('/api/send-email', {
+      method: 'POST',
+      body: JSON.stringify(payload),
+    })
+  }
+
   return (
     <div id="contact" className="pb-40 bg-white ">
       <div className="container flex flex-col items-center px-10 pt-20 mx-auto">
@@ -10,26 +30,40 @@ export default function Contact() {
         </div>
 
         <div className="flex items-start justify-between pt-20 space-x-10">
-        <div className="flex flex-col w-8/12">
+          <div className="flex flex-col w-8/12">
             <h2 className="pb-5 text-2xl font-semibold text-primary-700 ">
               Send me a message
             </h2>
-            <form >
+            <form onSubmit={onSubmit}>
               <div className="flex justify-between space-x-10">
                 <input
+                  value={name}
+                  onChange={e => setName(e.target.value)}
                   type="text"
                   className="w-6/12 px-2 py-2 bg-gray-100 border rounded-md focus:border-gray-800"
                   placeholder="Name"
                 />
                 <input
+                  value={email}
+                  onChange={e => setEmail(e.target.value)}
                   type="email"
                   className="w-6/12 px-2 py-2 bg-gray-100 border rounded-md focus:border-gray-800"
                   placeholder="Email"
                 />
               </div>
               <div className="flex flex-col items-center mt-8">
-              <textarea className="w-full px-2 pt-2 pb-32 bg-gray-100 border rounded-md focus:border-gray-800 " placeholder="Tell me more about what you need..."></textarea>
-              <button className="px-8 py-4 mt-6 text-white transition duration-300 ease-in-out border-none rounded-full shadow-lg hover:bg-primary-700 bg-primary-600">Send Message</button>
+                <textarea
+                  value={message}
+                  onChange={e => setMessage(e.target.value)}
+                  className="w-full px-2 pt-2 pb-32 bg-gray-100 border rounded-md focus:border-gray-800 "
+                  placeholder="Tell me more about what you need..."
+                ></textarea>
+                <button
+                  type="submit"
+                  className="px-8 py-4 mt-6 text-white transition duration-300 ease-in-out border-none rounded-full shadow-lg hover:bg-primary-700 bg-primary-600"
+                >
+                  Send Message
+                </button>
               </div>
             </form>
           </div>
@@ -68,7 +102,6 @@ export default function Contact() {
               </li>
             </ul>
           </div>
-          
         </div>
       </div>
     </div>
