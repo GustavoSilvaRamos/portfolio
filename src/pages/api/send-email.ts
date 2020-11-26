@@ -14,9 +14,10 @@ export default async(req, res) => {
   sgMail
   .send(msg)
   .then(() => {
-    
+    res.send('sucess')
   })
   .catch((error) => {
+    res.status(400).send('sucess')
     console.error(error)
   })
 
