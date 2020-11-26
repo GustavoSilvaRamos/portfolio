@@ -97,7 +97,7 @@ export default function Contact() {
               <li className="text-sm font-light text-gray-600 ">
                 Email <br />{' '}
                 <span className="text-base font-semibold text-gray-900 ">
-                  gustavosramos1@hotmail.com
+                  gustavosilv1234@gmail.com
                 </span>
               </li>
             </ul>
