@@ -18,7 +18,7 @@ export default class MyDocument extends Document {
               site_name: 'Gustavo Silva',
               images: [
                 {
-                  url: 'http://prntscr.com/wgaid7',
+                  url: '/Open-Graph.png',
                 },
               ],
             }}
