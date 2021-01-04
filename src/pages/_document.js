@@ -18,7 +18,7 @@ export default class MyDocument extends Document {
               site_name: 'Gustavo Silva',
               images: [
                 {
-                  url: '/Open-Graph.png',
+                  url: '/open-graph.png',
                 },
               ],
             }}
