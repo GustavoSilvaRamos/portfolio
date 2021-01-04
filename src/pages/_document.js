@@ -8,13 +8,10 @@ export default class MyDocument extends Document {
           <meta property="og:title" content="Gustavo Silva" />
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://gustavosr.com.br/" />
-          <meta
-            property="og:image"
-            content="http://gustavosr.com.br/images/open-graph.png"
-          />
+          <meta property="og:image" content="http://prntscr.com/wga49j" />
           <meta
             property="og:image:secure_url"
-            content="https://gustavosr.com.br/images/open-graph.png"
+            content="http://prntscr.com/wga49j"
           />
           <meta property="og:image:type" content="image/png" />
           <meta property="og:image:width" content="1200" />
