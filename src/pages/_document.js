@@ -6,33 +6,16 @@ export default class MyDocument extends Document {
     return (
       <Html lang="pt-br">
         <Head>
-          <DefaultSeo
-            titleTemplate="Gustavo Silva"
-            title="Gustavo Silva"
-            description="Let's work together!"
-            openGraph={{
-              url: 'https://gustavosr.com.br/',
-              title: 'Gustavo Silva',
-              description:
-                'I am a freelancer based in Brazil and I have been working as a developer for a year. I diligently keep track of the latest techs trends, so I can help convert your vision or idea into a meaningful and useful product.',
-              site_name: 'Gustavo Silva',
-              images: [
-                {
-                  url: '/open-graph.png',
-                },
-              ],
-            }}
-          />
-          {/* <meta property="og:title" content="Gustavo Silva" />
+          <meta property="og:title" content="Gustavo Silva" />
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://gustavosr.com.br/" />
           <meta
             property="og:image"
-            content="http://gustavosr.com.br/images/open-graph.png"
+            content="http://gustavosr.com.br/open-graph.png"
           />
           <meta
             property="og:image:secure_url"
-            content="https://gustavosr.com.br/images/open-graph.png"
+            content="https://gustavosr.com.br/open-graph.png"
           />
           <meta property="og:image:type" content="image/png" />
           <meta property="og:image:width" content="1200" />
@@ -46,7 +29,7 @@ export default class MyDocument extends Document {
           <meta
             property="og:description"
             content="Personal Portfolio developed for showing my works and developed content."
-          /> */}
+          />
           <link
             href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
             rel="stylesheet"
