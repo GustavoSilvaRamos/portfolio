@@ -1,6 +1,9 @@
 export default function Sidebar() {
   return (
-    <div className="fixed z-20 flex flex-col h-screen bg-gray-900 sidebar">
+    <div
+      id="bar"
+      className="fixed z-20 flex flex-col h-screen bg-gray-900 sidebar"
+    >
       <div className="flex flex-col items-center justify-between h-screen ">
         <div className="flex flex-col items-center justify-center">
           <img

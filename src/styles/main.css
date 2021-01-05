@@ -29,3 +29,14 @@
 .fab {
   display: flex !important;
 }
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .page-container {
+    padding-left: 0;
+    width: 812px;
+  }
+  .bar {
+    display: none;
+  }
+}

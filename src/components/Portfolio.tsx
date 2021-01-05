@@ -8,11 +8,11 @@ export default function Portfolio() {
           </h3>
           <h4 className="-mt-8 text-4xl font-semibold ">PORTFOLIO</h4>
         </div>
-        <div className="container grid grid-flow-row grid-cols-2 gap-8 pt-10 ">
+        <div className="container grid grid-flow-row grid-cols-1 gap-8 pt-10 md:grid-cols-2 ">
           <div className="transition duration-500 ease-in-out border-4 border-transparent rounded-sm opacity-75 hover:opacity-100 hover:border-primary-600">
             <a href="https://architecture-five.vercel.app/">
               <img
-                className="w-full h-64 "
+                className="w-full h-64"
                 src="HeroArc.jpg"
                 alt="Arquitetura"
               />
@@ -21,7 +21,7 @@ export default function Portfolio() {
           <div className="transition duration-500 ease-in-out border-4 border-transparent rounded-sm opacity-75 hover:opacity-100 hover:border-primary-600">
             <a href="https://maridodealuguel.vercel.app/">
               <img
-                className="w-full h-64"
+                className="w-full h-64 "
                 src="HeroMDE.jpg"
                 alt="Marido de Alugel"
               />

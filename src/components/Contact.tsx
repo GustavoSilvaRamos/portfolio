@@ -29,9 +29,9 @@ export default function Contact() {
           <h4 className="-mt-8 text-4xl font-semibold ">CONTACT</h4>
         </div>
 
-        <div className="flex items-start justify-between pt-20 space-x-10">
-          <div className="flex flex-col w-8/12">
-            <h2 className="pb-5 text-2xl font-semibold text-primary-700 ">
+        <div className="flex flex-col-reverse items-center justify-between pt-20 md:items-start md:space-x-10 md:flex-row">
+          <div className="flex flex-col w-full pt-10 md:pt-0 md:w-8/12">
+            <h2 className="pb-5 text-2xl font-semibold text-center md:text-left text-primary-700 ">
               Send me a message
             </h2>
             <form onSubmit={onSubmit}>
@@ -67,7 +67,7 @@ export default function Contact() {
               </div>
             </form>
           </div>
-          <div className="w-4/12">
+          <div className="w-10/12 text-center md:text-left md:w-4/12">
             <h2 className="mb-3 text-2xl font-semibold text-primary-700">
               Contact Info
             </h2>

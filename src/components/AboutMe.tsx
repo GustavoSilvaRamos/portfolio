@@ -8,8 +8,8 @@ export default function AboutMe() {
           </h3>
           <h4 className="-mt-8 text-4xl font-semibold ">ABOUT ME</h4>
         </div>
-        <div className="flex items-start justify-between pt-20 ">
-          <div className="flex flex-col w-8/12">
+        <div className="flex flex-col items-center pt-20 md:justify-between md:items-start md:flex-row md:space-x-3">
+          <div className="flex flex-col w-10/12 pb-10 md:w-8/12">
             <h2 className="pb-3 text-3xl font-semibold text-gray-700">
               I'm <span className="text-primary-600">Gustavo Silva,</span> a Web
               Developer
@@ -21,8 +21,8 @@ export default function AboutMe() {
               effort and perspicacity.
             </p>
           </div>
-          <div className="flex flex-col">
-            <ul className="flex flex-col items-start justify-start mt-1 space-y-3">
+          <div className="flex flex-col items-center w-10/12 text-center md:items-start md:text-left md:w-1/3">
+            <ul className="flex flex-col items-start justify-start mt-1 space-y-3 ">
               <li className="w-full pb-3 text-lg text-gray-700 border-b">
                 <span className="text-sm text-gray-900 opacity-50">NAME:</span>{' '}
                 Gustavo Silva
@@ -35,7 +35,7 @@ export default function AboutMe() {
                 <span className="text-sm text-gray-900 opacity-50">AGE:</span>{' '}
                 21
               </li>
-              <li className="pb-3 text-lg text-gray-700 ">
+              <li className="w-full pb-3 text-lg text-gray-700 ">
                 <span className="text-sm text-gray-900 opacity-50">FROM:</span>{' '}
                 Mirassol, São Paulo
               </li>
