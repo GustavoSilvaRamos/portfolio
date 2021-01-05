@@ -6,15 +6,17 @@ export default function AboutMe() {
           <h3 className="text-6xl font-semibold text-gray-500 opacity-25">
             KNOW ME MORE
           </h3>
-          <h4 className="-mt-8 text-4xl font-semibold ">ABOUT ME</h4>
+          <h4 className="-mt-8 text-5xl font-semibold md:text-4xl ">
+            ABOUT ME
+          </h4>
         </div>
         <div className="flex flex-col items-center pt-20 md:justify-between md:items-start md:flex-row md:space-x-3">
           <div className="flex flex-col w-10/12 pb-10 md:w-8/12">
-            <h2 className="pb-3 text-3xl font-semibold text-gray-700">
+            <h2 className="pb-3 text-4xl font-semibold text-gray-700 md:text-3xl">
               I'm <span className="text-primary-600">Gustavo Silva,</span> a Web
               Developer
             </h2>
-            <p className="text-base font-light leading-loose text-gray-900">
+            <p className="text-lg font-light leading-loose text-gray-900 md:text-base">
               A focused and hardworking Web Developer, who always seeks to
               evolve and give his best. I seek a good professional and personal
               life, and I believe that both are only acquired with a lot of
@@ -23,20 +25,28 @@ export default function AboutMe() {
           </div>
           <div className="flex flex-col items-center w-10/12 text-center md:items-start md:text-left md:w-1/3">
             <ul className="flex flex-col items-start justify-start mt-1 space-y-3 ">
-              <li className="w-full pb-3 text-lg text-gray-700 border-b">
-                <span className="text-sm text-gray-900 opacity-50">NAME:</span>{' '}
+              <li className="w-full pb-3 text-xl text-gray-700 border-b md:text-lg">
+                <span className="text-base text-gray-900 opacity-50 md:text-sm">
+                  NAME:
+                </span>{' '}
                 Gustavo Silva
               </li>
-              <li className="w-full pb-3 text-lg text-gray-700 border-b">
-                <span className="text-sm text-gray-900 opacity-50">EMAIL:</span>{' '}
+              <li className="w-full pb-3 text-xl text-gray-700 border-b md:text-lg">
+                <span className="text-base text-gray-900 opacity-50 md:text-sm">
+                  EMAIL:
+                </span>{' '}
                 gustavosramos1@hotmail.com
               </li>
-              <li className="w-full pb-3 text-lg text-gray-700 border-b">
-                <span className="text-sm text-gray-900 opacity-50">AGE:</span>{' '}
+              <li className="w-full pb-3 text-xl text-gray-700 border-b md:text-lg">
+                <span className="text-base text-gray-900 opacity-50 md:text-sm">
+                  AGE:
+                </span>{' '}
                 21
               </li>
-              <li className="w-full pb-3 text-lg text-gray-700 ">
-                <span className="text-sm text-gray-900 opacity-50">FROM:</span>{' '}
+              <li className="w-full pb-3 text-xl text-gray-700 md:text-lg ">
+                <span className="text-base text-gray-900 opacity-50 md:text-sm">
+                  FROM:
+                </span>{' '}
                 Mirassol, São Paulo
               </li>
             </ul>

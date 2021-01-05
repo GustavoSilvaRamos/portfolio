@@ -28,7 +28,7 @@ export default function Hero() {
           based in Mirassol, São Paulo
         </h3>
         <a className="z-20" href="#portfolio">
-          <button className="px-5 py-3 font-semibold tracking-wide transition duration-200 ease-in-out border-2 rounded-full text-primary-600 border-primary-600 hover:text-white hover:bg-primary-600">
+          <button className="px-5 py-3 font-semibold tracking-wide text-white transition duration-200 ease-in-out border-2 rounded-full md:bg-transparent bg-primary-600 md:text-primary-600 border-primary-600 hover:text-white hover:bg-primary-600">
             See My Projects
           </button>
         </a>

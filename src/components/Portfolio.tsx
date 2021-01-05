@@ -6,7 +6,9 @@ export default function Portfolio() {
           <h3 className="text-6xl font-semibold text-gray-500 opacity-25">
             MY WORKS
           </h3>
-          <h4 className="-mt-8 text-4xl font-semibold ">PORTFOLIO</h4>
+          <h4 className="-mt-8 text-5xl font-semibold md:text-4xl ">
+            PORTFOLIO
+          </h4>
         </div>
         <div className="container grid grid-flow-row grid-cols-1 gap-8 pt-10 md:grid-cols-2 ">
           <div className="transition duration-500 ease-in-out border-4 border-transparent rounded-sm opacity-75 hover:opacity-100 hover:border-primary-600">
