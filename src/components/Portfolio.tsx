@@ -14,7 +14,7 @@ export default function Portfolio() {
           <div className="transition duration-500 ease-in-out border-4 border-transparent rounded-sm opacity-75 hover:opacity-100 hover:border-primary-600">
             <a href="https://architecture-five.vercel.app/">
               <img
-                className="w-full h-64"
+                className="w-full md:h-64"
                 src="HeroArc.jpg"
                 alt="Arquitetura"
               />
@@ -23,7 +23,7 @@ export default function Portfolio() {
           <div className="transition duration-500 ease-in-out border-4 border-transparent rounded-sm opacity-75 hover:opacity-100 hover:border-primary-600">
             <a href="https://maridodealuguel.vercel.app/">
               <img
-                className="w-full h-64 "
+                className="w-full md:h-64 "
                 src="HeroMDE.jpg"
                 alt="Marido de Alugel"
               />
@@ -31,18 +31,18 @@ export default function Portfolio() {
           </div>
           <div className="transition duration-500 ease-in-out border-4 border-transparent rounded-sm opacity-75 hover:opacity-100 hover:border-primary-600">
             <a href="https://receitas.vercel.app/">
-              <img className="w-full h-64" src="HeroR.jpg" alt="Receitas" />
+              <img className="w-full md:h-64" src="HeroR.jpg" alt="Receitas" />
             </a>
           </div>
-          <div className="transition duration-500 ease-in-out border-4 border-transparent rounded-sm opacity-75 hover:opacity-100 hover:border-primary-600">
+          <div className="transition duration-500 ease-in-out border-4 border-transparent rounded-sm opacity-75 h-72 hover:opacity-100 hover:border-primary-600">
             <a href="https://wineryproject.vercel.app/">
-              <img className="w-full h-64" src="HeroV.jpg" alt="Vinicola" />
+              <img className="w-full md:h-64" src="HeroV.jpg" alt="Vinicola" />
             </a>
           </div>
           <div className="transition duration-500 ease-in-out border-4 border-transparent rounded-sm opacity-75 hover:opacity-100 hover:border-primary-600">
             <a href="https://personaltrainer.vercel.app/">
               <img
-                className="w-full h-64"
+                className="w-full md:h-64"
                 src="HeroPT.jpg"
                 alt="Personal Trainer"
               />
