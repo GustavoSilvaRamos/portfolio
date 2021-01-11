@@ -11,7 +11,7 @@ export default function AboutMe() {
           </h4>
         </div>
         <div className="flex flex-col items-center pt-20 md:justify-between md:items-start md:flex-row md:space-x-3">
-          <div className="flex flex-col w-10/12 pb-10 md:w-8/12">
+          <div className="flex flex-col w-10/12 pb-10 md:w-7/12">
             <h2 className="pb-3 text-4xl font-semibold text-gray-700 md:text-3xl">
               I'm <span className="text-primary-600">Gustavo Silva,</span> a Web
               Developer
@@ -50,9 +50,12 @@ export default function AboutMe() {
                 Mirassol, São Paulo
               </li>
             </ul>
-            <button className="w-7/12 px-8 py-4 mt-6 text-white transition duration-300 ease-in-out border-none rounded-full shadow-lg hover:bg-primary-700 bg-primary-600">
+            <a
+              href="https://drive.google.com/file/d/1Os5FlNNkpaIXlZ2mv8Pd3QEXFnjRTQxD/view?usp=sharing"
+              className="flex justify-center w-7/12 px-8 py-4 mt-6 text-white transition duration-300 ease-in-out border-none rounded-full shadow-lg hover:bg-primary-700 bg-primary-600"
+            >
               Download CV
-            </button>
+            </a>
           </div>
         </div>
       </div>
