@@ -12,13 +12,13 @@ export default class MyDocument extends Document {
           <meta
             name="image"
             property="og:image"
-            content="https://drive.google.com/file/d/19YbSk6yKJuRS5uw9yrPHfmSQj0mSc3f0/view?usp=sharing"
+            content="https://gustavosr.com.br/image/open-graph.jpg"
           />
           <meta
             property="og:image:secure_url"
-            content="https://drive.google.com/file/d/19YbSk6yKJuRS5uw9yrPHfmSQj0mSc3f0/view?usp=sharing"
+            content="https://gustavosr.com.br/image/open-graph.jpg"
           />
-          <meta property="og:image:type" content="image/png" />
+          <meta property="og:image:type" content="image/jpg" />
           <meta property="og:image:width" content="1200" />
           <meta property="og:image:height" content="630" />
           <meta
