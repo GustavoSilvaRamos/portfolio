@@ -6,29 +6,22 @@ export default class MyDocument extends Document {
     return (
       <Html lang="pt-br">
         <Head>
-          <meta property="og:title" content="Gustavo Silva" />
-          <meta property="og:type" content="website" />
-          <meta property="og:url" content="https://gustavosr.com.br/" />
-          <meta
-            property="og:image"
-            content="http://gustavosr.com.br/public/open-graph.png"
-          />
-          <meta
-            property="og:image:secure_url"
-            content="https://gustavosr.com.br/public/open-graph.png"
-          />
-          <meta property="og:image:type" content="image/png" />
-          <meta property="og:image:width" content="1200" />
-          <meta property="og:image:height" content="630" />
-          <meta
-            property="og:image:alt"
-            content="Hero image for Gustavo Silva Portfolio"
-          />
-          <meta property="og:locale" content="en_US" />
-          <meta property="og:site_name" content="GustavoSilva" />
-          <meta
-            property="og:description"
-            content="Personal Portfolio developed for showing my works and developed content."
+          <DefaultSeo
+            titleTemplate="Gustavo Silva"
+            title="Gustavo Silva"
+            description="Let's work together!"
+            openGraph={{
+              url: 'https://gustavosr.com.br/',
+              title: 'Gustavo Silva',
+              description:
+                'Personal Portfolio developed for showing my works and developed content.',
+              site_name: 'Gustavo Silva',
+              images: [
+                {
+                  url: '/open-graph.png',
+                },
+              ],
+            }}
           />
           <link
             href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
