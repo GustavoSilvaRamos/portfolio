@@ -11,11 +11,11 @@ export default class MyDocument extends Document {
           <meta property="og:url" content="https://gustavosr.com.br/" />
           <meta
             property="og:image"
-            content="http://gustavosr.com.br/open-graph.png"
+            content="http://gustavosr.com.br/public/open-graph.png"
           />
           <meta
             property="og:image:secure_url"
-            content="https://gustavosr.com.br/open-graph.png"
+            content="https://gustavosr.com.br/public/open-graph.png"
           />
           <meta property="og:image:type" content="image/png" />
           <meta property="og:image:width" content="1200" />
