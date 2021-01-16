@@ -35,7 +35,7 @@ export default function AboutMe() {
                 <span className="text-base text-gray-900 opacity-50 md:text-sm">
                   EMAIL:
                 </span>{' '}
-                gustavosramos1@hotmail.com
+                gustavosilv1234@gmail.com
               </li>
               <li className="w-full pb-3 text-xl text-gray-700 border-b md:text-lg">
                 <span className="text-base text-gray-900 opacity-50 md:text-sm">
