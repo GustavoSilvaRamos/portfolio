@@ -51,7 +51,7 @@ export default function AboutMe() {
               </li>
             </ul>
             <a
-              href="https://drive.google.com/file/d/1ZyIAhl_5p_c4qNQLvf3EdS8dNjnbARSm/view?usp=sharing"
+              href="https://drive.google.com/file/d/1GvTPBTOknyNQ9_opaHWta8-6-mGspzX2/view?usp=sharing"
               className="flex justify-center w-7/12 px-8 py-4 mt-6 text-white transition duration-300 ease-in-out border-none rounded-full shadow-lg hover:bg-primary-700 bg-primary-600"
             >
               Download CV
